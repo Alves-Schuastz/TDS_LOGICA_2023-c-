@@ -1,0 +1,41 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    char teste1 = 'A';
+    char teste2;
+    char le;
+    char len;
+    char nome[10];
+   
+   printf("digite uma frase");
+   scanf("%s", nome);
+   
+   if(nome[0]>122){
+       printf("use caracteres validos!");
+       
+   }
+   
+   else{
+   if(nome[0]>90){
+       printf("\nsua letra é minuscula! Vamos alterala!");
+       
+       nme[o0]=nome[0]- 32;
+       printf("\no nome e %s", nome);
+   }
+   else{
+    printf("\nsua letra e minuscula");
+    printf("\no nome e %s", nome);
+   
+   }
+   
+}
+}

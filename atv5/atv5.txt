@@ -1,0 +1,21 @@
+proposta
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>                      ASCII  A-Z 65-90    a-z 97- 122 0-9  48-57        
++ exibir nomes
++ usuario digita 5 nomes
++ Primeira letra tem que ser maiuscula
++ corrigir espaços
++ se inserir simbolos, mandar digitar novamente
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+PLANO
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
++ o usuário vai digita o primeiro nome, contendo espaços
+	-> ter um #define tamanho 70 char
+	-> Salva na memoria como uma string(%s)  'scanf(%[^\n]);'
+	->se sucede este processo por 5x
+
++ verificação da primeira letra
+	-> a string "nome" vai passar por uma verificação com 'IF'(nome<97 ||nome>122)
+		->erro!
+
++corrigir espaços            
